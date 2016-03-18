@@ -1,0 +1,42 @@
+body, button, input, select, textarea {/*
+  font: 12px tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+*/  font: 14px 'Microsoft Yahei';
+}
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+
+::-ms-clear, ::-ms-reveal{
+  display: none;
+}
+
+.g-clearfix:after {
+  clear: both;
+}
+
+.g-clearfix:after, .g-clearfix:before {
+  content: "";
+  display: table;
+}
+
+.hidden{
+  display: none;
+}
+.visible{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.ctg-logo{
+  background: url(../images/sxlogo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
